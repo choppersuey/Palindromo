@@ -7,7 +7,6 @@ public class Desafio {
         Scanner sc = new Scanner(System.in);
         String palavra = sc.nextLine();
         String palavraInvertida = new StringBuilder(palavra).reverse().toString();
-        String palavraDesvertida = new StringBuilder(palavraInvertida).reverse().toString();
         if(palavra.equals(palavraInvertida)){
             System.out.println("TRUE");
         }else{
